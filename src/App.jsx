@@ -1,5 +1,5 @@
 import Api from "./API/Api.jsx"
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Router, Route, Routes } from "react-router-dom";
 import MovieDetail from "./supports/movieDetail.jsx";
 
 
