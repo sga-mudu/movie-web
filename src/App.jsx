@@ -5,7 +5,7 @@ import MovieDetail from "./supports/movieDetail.jsx";
 
 function App() {
   return(<>
-    <Routes basename="/movie-web">
+    <Routes>
         <Route path="/" element={<Api/>}/>
         
         <Route path="/movie/:id" element={<MovieDetail/>}/>
