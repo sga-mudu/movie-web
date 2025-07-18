@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/',
   css: {
     modules: false,  // Disable if you’re not using CSS Modules
   },
