@@ -1,6 +1,6 @@
 {
-  "name": "movie-web",
-  "homepage": "https://sga-mudu.github.io/movie-web",
+  "name": "movies",
+  "homepage": "https://sga-mudu.github.io/movie-web/movies",
   "private": true,
   "version": "0.0.0",
   "type": "module",

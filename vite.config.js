@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/movie-web",
+  base: "/movies",
   css: {
     modules: false,  // Disable if you’re not using CSS Modules
   },
