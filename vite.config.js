@@ -6,4 +6,12 @@ export default defineConfig({
   css: {
     modules: false,  // Disable if you’re not using CSS Modules
   },
+  build: {
+    outDir: 'dist',  // Specify the output directory
+    rollupOptions: {
+      input: {
+        main: 'src/main.jsx',  // Adjust according to your entry file
+      },
+    },
+  }
 });
